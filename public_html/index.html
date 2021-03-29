@@ -9,28 +9,56 @@ and open the template in the editor.
         <title>Mademoiselle</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-         <!-- meta -->
+        <!-- meta -->
         <meta name="author" content="Sara Jovanovic">
         <meta name="description" content="Mademoiselle project">
         <meta name="keywords" content="">
-
         <!-- ios compatibility -->
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-title" content="Mademoiselle">
         <link rel="apple-touch-icon" href="apple-icon-144x144.png">
-
         <!-- Android compatibility -->
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="application-name" content="Mademoiselle">
-        <link rel="icon" type="image/png" href="android-icon-192x192.png">
-        <link rel="icon" type="image/ico" href="favicon.ico">
-        
+        <link rel="icon" type="image/png" href="android-icon-192x192.png">        
+        <!-- Theme -->
         <link href="css/theme.css" rel="stylesheet" type="text/css"/>
-        
     </head>
     <body>
-        
+        <!--header-start-->
+        <header class="py-1 py-md-3 py-lg-6">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo/logo.png" alt=""/>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="services.html">services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">contact</a>
+                            </li>                         
+                        </ul>                       
+                    </div>
+                </div>
+            </nav>
+        </header><!--header-end-->
+
+
+
         <!-- js -->
         <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
         <script src="js/jquery.js" type="text/javascript"></script>      

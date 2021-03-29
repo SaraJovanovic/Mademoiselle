@@ -18,6 +18,8 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .section-title {
@@ -32,18 +34,19 @@ a {
     width: 7.4rem;
     height: 1px;
     background-color: $after-section-bg;
-
 }
 
 .image-placeholder{
     position: relative;
     overflow: hidden;
 }
+
 .image-placeholder:after{
     content: '';
     display: block;
     padding-top: 56.62%; // 16by9
 }
+
 .image-placeholder img{
     position: absolute;
     top:0;
