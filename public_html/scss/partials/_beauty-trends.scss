@@ -11,14 +11,22 @@
             width: 7.4rem;
             height: 1px;
             background-color: $after-section-bg;
-            margin: 25px auto 0;
+            margin: 25px auto 0;            
+        }
+        @media(min-width: 576px) {
+           text-align: left; 
+           letter-spacing: 5px;
+           line-height: 45px;
+           font-size: 30px;
+           &:after {
+               margin: 25px 0 0;
+           }
         }
     }
     .beauty-trends-content {
         padding: 22px 19px 57px;
         width: 80%;
         margin: -80px auto 0;
-        outline: 1px solid red;
         background-color: #fff;
         position: relative;      
     }
