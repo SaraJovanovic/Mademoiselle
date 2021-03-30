@@ -35,6 +35,22 @@ a {
     background-color: $after-section-bg;
 }
 
+.date {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 1.7rem;
+}
+
+.subtitle {
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    height: 48px;
+    overflow: hidden;
+}
+
 .image-placeholder{
     position: relative;
     overflow: hidden;

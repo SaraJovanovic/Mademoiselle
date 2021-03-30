@@ -1,0 +1,25 @@
+.beauty-trends {
+    padding: 75px 0 56px;
+    h2 {
+        text-align: center;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        &:after {
+            content: '';
+            display: block;
+            width: 7.4rem;
+            height: 1px;
+            background-color: $after-section-bg;
+            margin: 25px auto 0;
+        }
+    }
+    .beauty-trends-content {
+        padding: 22px 19px 57px;
+        width: 80%;
+        margin: -80px auto 0;
+        outline: 1px solid red;
+        background-color: #fff;
+        position: relative;      
+    }
+}
