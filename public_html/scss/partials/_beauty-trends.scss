@@ -14,13 +14,13 @@
             margin: 25px auto 0;            
         }
         @media(min-width: 576px) {
-           text-align: left; 
-           letter-spacing: 5px;
-           line-height: 45px;
-           font-size: 30px;
-           &:after {
-               margin: 25px 0 0;
-           }
+            text-align: left; 
+            letter-spacing: 5px;
+            line-height: 45px;
+            font-size: 30px;
+            &:after {
+                margin: 25px 0 0;
+            }
         }
     }
     .beauty-trends-content {

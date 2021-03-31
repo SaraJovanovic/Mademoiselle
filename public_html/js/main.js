@@ -1,4 +1,27 @@
 $(document).ready(function () {
+    
+    // carousel
+    if ($('.team-slider').length > 0) {
+        $('.team-slider').owlCarousel({
+            items: 1,          
+            autoplay: true,
+            loop: true,
+           autoplayHoverPause: true
+           
+            
+        });
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 // animation start
     function animation() {
         var windowHight = $(window).height();

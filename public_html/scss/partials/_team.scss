@@ -1,0 +1,52 @@
+.team {
+    padding: 111px 0 67px;
+    h2 {
+        text-align: center;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        &:after {
+            content: '';
+            display: block;
+            width: 7.4rem;
+            height: 1px;
+            background-color: $after-section-bg;
+            margin: 25px auto 0;            
+        }
+        @media(min-width: 576px) {
+            text-align: left; 
+            letter-spacing: 5px;
+            line-height: 45px;
+            font-size: 30px;
+            &:after {
+                margin: 25px 0 0;
+            }
+        }       
+    }
+    .team-item {
+        border: 1px solid $secondary;
+        @media(min-width: 576px) {
+            padding: 20px 30px;
+        }
+        @media(min-width: 768px) {
+            padding: 40px 60px;
+        }
+        @media(min-width: 1200px) {
+            padding: 54px 95px;
+        }      
+        h3 {
+            a {
+                font-family: $lato;
+                font-weight: 400;
+                @media(min-width: 1200px) {
+                    font-size: 30px;
+                    line-height: 27px;  
+                }
+            }
+        }
+        p {
+            font-size: 14px;
+            line-height: 23px;
+        }   
+    }
+}

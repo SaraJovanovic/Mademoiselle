@@ -1,4 +1,4 @@
-$body-font: $lato;
+                                                                                                        $body-font: $lato;
 $heading-font: $bodoni;
 $after-section-bg: #ECD9D9;
 
@@ -42,6 +42,8 @@ a {
 .image-placeholder{
     position: relative;
     overflow: hidden;
+     background: url('assets/loader-img.gif') no-repeat center center;
+    background-size: 10rem auto;
 }
 
 .image-placeholder:after{
