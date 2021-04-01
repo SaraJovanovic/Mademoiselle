@@ -1,6 +1,9 @@
 .beauty-trends {
     padding: 75px 0 56px;
-    h2 {
+    @media(min-width: 1200px) {
+        padding-top: 92px;
+    }
+    .beauty-trends-title {
         text-align: center;
         margin-bottom: 50px;
         text-transform: uppercase;
@@ -23,6 +26,50 @@
             }
         }
     }
+    
+    .beauty-trends-page {
+       
+    h2 {
+        margin-bottom: 30px;
+        font-family: $lato;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 50px;
+        text-transform: uppercase;
+        width: 60%;
+        @media(min-width: 768px) {
+            font-size: 35px;
+        }
+         @media(min-width: 992px) {
+            font-size: 44px;
+        }
+    }
+    p {       
+        line-height: 26px;
+        @media(min-width: 768px) {
+            font-size: 20px;
+            line-height: 28px;
+        }
+        &:first-of-type {
+            margin-bottom: 29px;
+            @media(min-width: 768px) {
+                  margin-bottom: 66px;
+            }
+        }       
+    }
+    img {
+        display: block;
+        margin-bottom: 29px;
+        @media(min-width: 768px) {
+             margin-bottom: 66px;
+        }
+    }
+    }
+    
+    
+    
+    
+    
     .beauty-trends-content {
         padding: 22px 19px 57px;
         width: 80%;
