@@ -1,0 +1,48 @@
+$form-bg: #253D61;
+
+.contact {
+    padding: 50px 0;
+     @media(min-width: 768px) {
+        padding: 70px 0;
+    }
+    @media(min-width: 992px) {
+        padding: 104px 0 110px;
+    }
+    h2 {
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: 1px;       
+        text-transform: uppercase;
+       width: 60%;
+    }
+    form {
+       
+        .input-form  {
+            width: 100%;
+            padding: 12px 7px 11px 19px;
+            font-size: 16px;
+            line-height: 25px;
+            font-family: $lato;
+            letter-spacing: -0.23px;
+            color: #1E1E1E;
+            background-color: rgba($form-bg, 0.02);
+            border: none;
+        }  
+    }
+
+    a {
+        font-size: 14px;
+       
+        line-height: 17px;
+        letter-spacing: 0.5px;
+        border: 1px solid #1E1E1E;
+        padding: 13px 30.5px 15px;
+        text-align: center;
+        transition: all 0.2s linear;
+        &:hover {
+            background-color: #1E1E1E;
+            color: #fff;
+        }
+    }
+
+}

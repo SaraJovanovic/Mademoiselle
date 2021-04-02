@@ -67,9 +67,7 @@
     }
     
     
-    
-    
-    
+ 
     .beauty-trends-content {
         padding: 22px 19px 57px;
         width: 80%;
@@ -77,4 +75,26 @@
         background-color: #fff;
         position: relative;      
     }
+    
+    .pagination {
+        .page-item {
+            &.active {
+                .page-link {
+                    color: #1E1E1E;
+                    font-weight: bold;
+                    background-color: transparent;
+                }
+            }
+        }
+        .page-link {
+            font-family: $bodoni;
+            line-height: 24px;          
+            border: none;
+            padding: 0 10px;
+            &:hover {
+                background-color: transparent;
+            }
+        }
+    }
+    
 }

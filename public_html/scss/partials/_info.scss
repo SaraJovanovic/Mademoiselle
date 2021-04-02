@@ -1,0 +1,20 @@
+.info {
+    padding: 30px 0;
+    @media(min-width: 768px) {
+        padding: 60px 0;
+    }
+    .info-text {
+        font-family: $lato;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 25px;
+         @media(min-width: 768px) {
+        font-size: 20px;
+    }
+     @media(min-width: 1200px) {
+        font-size: 24px;
+    }
+    
+    }
+}
+

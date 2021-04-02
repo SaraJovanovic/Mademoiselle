@@ -3,7 +3,7 @@ $main-heading-color: #fff;
 .hero {
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     padding: 200px 0;
     @media(min-width: 768px) {
         padding: 218px 0 269px;
@@ -31,6 +31,19 @@ $main-heading-color: #fff;
                 font-size: 60px;
                 line-height: 84px;
                 letter-spacing: 20px;
+            }
+        }
+        .hero-error {
+            font-size: 14px;
+            border: 1px solid #fff;
+            letter-spacing: 0.5px;
+            line-height: 17px;
+            color: #fff;
+            transition: all 0.2s linear;
+            &:hover {
+                background-color: $secondary;
+                color: #1E1E1E;
+                border: 1px solid $secondary;
             }
         }
     }
