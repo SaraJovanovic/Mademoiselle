@@ -2,70 +2,72 @@
 $tags-bg: #F5F5F5;
 
 .single-page {
-    padding-top: 50px;
-     @media(min-width: 768px) {
-        padding-top: 112px;
+    padding: 9.8rem 0 8rem;
+    @media(min-width: 768px) {
+        padding: 23.3rem 0 13rem;
     }
-    
+
     @media(min-width: 1200px) {
-        padding-top: 192px;
+        padding-top: 27.3rem 0 18rem;
     }
     .page-info {
         font-family: $bodoni;
-        font-size: 14px;
-        line-height: 17px;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
         letter-spacing: 1px;
-    }
+    } // page-info end
     .single-page-wrapper {
-        margin-bottom: 60px;
-        @media(min-width: 992px) {
-            margin-bottom: 97px;
-        }
-        h1 {
-            font-family: $lato;
-            font-weight: 400;         
-            line-height: 40px;
-            text-transform: uppercase;
-            @media(min-width: 992px) {
-               font-size: 44px;
-                line-height: 50px;
+        margin-bottom: 5rem;
+        @media(min-width: 768px) {
+            margin-bottom: 9.7rem;
+        }  
+        .single-page-description {      
+            h1 {
+                font-family: $lato;
+                font-weight: 400;         
+                font-size: 2.5rem;
+                line-height: 3rem;
+                text-transform: uppercase;
+                @media(min-width: 992px) {
+                    font-size: 4.4rem;
+                    line-height: 5rem;
+                }
             }
-        }
-        p {
-            @media(min-width: 992px) {
-                font-size: 20px;
-                line-height: 28px;
-            }        
-        }
-    }   
+            p {
+                @media(min-width: 992px) {
+                    font-size: 1.8rem;
+                    line-height: 2.6rem;
+                }        
+            }
+        }// single-page-description end
+    } // single-page-wrapper end
     .single-page-content {
         max-width: 750px;
         width: 100%;
         margin: 0 auto;
         p {
-            font-size: 14px;           
-            line-height: 26px;
+            font-size: 1.4rem;           
+            line-height: 2.6rem;
             text-align: justify;
             @media(min-width: 992px) {
-                font-size: 18px;          
+                font-size: 1.8rem;          
             }
         }
         img {
             display: block;
-            margin: 52px 0;
+            margin: 5.2rem 0;
         }
-    }   
+    } // single-page-content end
     .single-page-tags {
-
         max-width: 750px;
         width: 100%;
         margin: 0 auto;
         font-family: $bodoni;
-        line-height: 27px;
+        line-height: 2.7rem;
         a {
             padding: 5px 10px;
             background-color: $tags-bg;
             text-align: center;
-        }
-    }   
-}
+        } 
+    } // single-page-tags end 
+} // single-page end

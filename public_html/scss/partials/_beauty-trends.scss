@@ -1,11 +1,15 @@
+
 .beauty-trends {
-    padding: 75px 0 56px;
+    padding: 5.5rem 0 5.6rem;
+    @media(min-width: 768px) {
+        padding-top: 6.2rem;
+    }
     @media(min-width: 1200px) {
-        padding-top: 92px;
+        padding-top: 9.2rem;
     }
     .beauty-trends-title {
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 5rem;
         text-transform: uppercase;
         letter-spacing: 2px;
         &:after {
@@ -13,69 +17,66 @@
             display: block;
             width: 7.4rem;
             height: 1px;
-            background-color: $after-section-bg;
-            margin: 25px auto 0;            
+            background-color: $after-section-bg; // general style
+            margin: 2.5rem auto 0;            
         }
         @media(min-width: 576px) {
             text-align: left; 
             letter-spacing: 5px;
-            line-height: 45px;
-            font-size: 30px;
+            line-height: 4.5rem;
+            font-size: 3rem;
             &:after {
-                margin: 25px 0 0;
+                margin: 2.5rem 0 0;
             }
         }
-    }
-    
+    } // beauty-trends-title end
+
     .beauty-trends-page {
-       
-    h2 {
-        margin-bottom: 30px;
-        font-family: $lato;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 50px;
-        text-transform: uppercase;
-        width: 60%;
-        @media(min-width: 768px) {
-            font-size: 35px;
-        }
-         @media(min-width: 992px) {
-            font-size: 44px;
-        }
-    }
-    p {       
-        line-height: 26px;
-        @media(min-width: 768px) {
-            font-size: 20px;
-            line-height: 28px;
-        }
-        &:first-of-type {
-            margin-bottom: 29px;
+        h2 {
+            margin-bottom: 3rem;
+            font-family: $lato;
+            font-weight: 400;
+            font-size: 2.5rem;
+            line-height: 5rem;
+            text-transform: uppercase;
+            width: 60%;
             @media(min-width: 768px) {
-                  margin-bottom: 66px;
+                font-size: 3.5rem;
             }
-        }       
-    }
-    img {
-        display: block;
-        margin-bottom: 29px;
-        @media(min-width: 768px) {
-             margin-bottom: 66px;
-        }
-    }
-    }
-    
-    
- 
+            @media(min-width: 992px) {
+                font-size: 4.4rem;
+            }
+        } // h2 end     
+        p {       
+            line-height: 2.6rem;
+            @media(min-width: 768px) {
+                font-size: 2rem;
+                line-height: 2.8rem;
+            }
+            &:first-of-type {
+                margin-bottom: 2.9rem;
+                @media(min-width: 768px) {
+                    margin-bottom: 6.6rem;
+                }
+            }       
+        } // p end      
+        img {
+            display: block;
+            margin-bottom: 2.9rem;
+            @media(min-width: 768px) {
+                margin-bottom: 6.6rem;
+            }
+        } // img end
+    } // beauty-trend-page end
+
     .beauty-trends-content {
-        padding: 22px 19px 57px;
+        padding: 2.2rem 1.9rem 5.7rem;
         width: 80%;
-        margin: -80px auto 0;
+        margin: -8rem auto 0;
         background-color: #fff;
         position: relative;      
-    }
-    
+    } // beauty-trends-content end
+
     .pagination {
         .page-item {
             &.active {
@@ -85,16 +86,15 @@
                     background-color: transparent;
                 }
             }
-        }
+        } // page-item end
         .page-link {
             font-family: $bodoni;
-            line-height: 24px;          
+            line-height: 2.4rem;          
             border: none;
-            padding: 0 10px;
+            padding: 0 1rem;
             &:hover {
                 background-color: transparent;
             }
-        }
-    }
-    
-}
+        } // page-link end
+    } // pagination end
+} // beauty-trend end

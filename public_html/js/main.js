@@ -13,15 +13,6 @@ $(document).ready(function () {
     }
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
 // animation start
     function animation() {
         var windowHight = $(window).height();
@@ -50,7 +41,7 @@ $(document).ready(function () {
 
     if ($('.contact-form').length > 0) {
         $(function () {
-            $(".contact-form").validate({
+            $('.contact-form').validate({
                 highlight: function (element) {
                     $(element).addClass("is-invalid").removeClass("is-valid");
                     $(element).closest('.form-group').addClass("is-invalid").removeClass("is-valid");
@@ -67,24 +58,28 @@ $(document).ready(function () {
                         required: true,
                         email: true
                     },
+                    subject: {
+                             required: true
+                            
+                    },
                     message: {
-                        required: true,
-                        maxlength: 255
-
+                        required: true                    
                     }
                 },
                 messages: {
                     name: {
-                        required: 'Name* is required field!!!'
+                        required: 'Name* is required field'
                     },
                     email: {
-                        required: 'Email* is required field!!!',
-                        email: 'Please insert valid Email address!!!'
+                        required: 'Email* is required field',
+                        email: 'Please insert valid Email address'
+                    },
+                   
+                    subject: {
+                        required: 'Subject* is required field'
                     },
                     message: {
-                        required: 'Message* is required field!!!',
-                        maxlength: 'Max Message length is 255 characters !!!'
-
+                        required: 'Message* is required field'                       
                     }
 
                 },

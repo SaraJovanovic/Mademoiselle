@@ -28,8 +28,9 @@ and open the template in the editor.
         <link href="css/theme.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+
         <!--header-start-->
-        <header class="py-1 py-md-3 py-lg-4 fixed-top" style="background-color: #fff">
+        <header class="fixed-top py-1 py-md-6" style="background-color: #fff">
             <nav class="navbar navbar-expand-md navbar-light">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">
@@ -40,8 +41,8 @@ and open the template in the editor.
                         <span></span>
                         <span></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="main-menu">
-                        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <div class="collapse navbar-collapse mt-4 mt-md-0" id="main-menu">
+                        <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="about.html">about</a>
                             </li>
@@ -63,6 +64,7 @@ and open the template in the editor.
         <!--main-start-->
         <main>
 
+            <!--single-page-start-->
             <section class="single-page">
                 <div class="container">
                     <div class="page-info d-flex flex-wrap align-items-center mb-4 animation" data-animation="slideRight">
@@ -72,9 +74,9 @@ and open the template in the editor.
                         <span>|</span>
                         <p class="mb-0 page-date ms-2 fst-italic">04/02/2019</p>
                     </div>
-                    <div class="row justify-content-sm-between align-items-sm-center single-page-wrapper">
+                    <div class="row justify-content-sm-between single-page-wrapper">
                         <div class="col-12 col-sm-5 animation" data-animation="slideRight">
-                            <article class="h-100">
+                            <article class="h-100 single-page-description">
                                 <h1 class="mb-5">If you are going to use a passage of Lorem Ipsum, you need</h1>
                                 <p class="mb-4 mb-sm-0">
                                     Contrary to popular belief, Lorem Ipsum is not simply 
@@ -91,7 +93,7 @@ and open the template in the editor.
                         </div>
                     </div><!--row end-->
                     
-                    
+                    <!--single-page--content start-->
                     <div class="single-page-content mb-8">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing 
@@ -155,17 +157,19 @@ and open the template in the editor.
                             justo. Maecenas non ligula vel nunc gravida scelerisque. 
                             Maecenas non porttitor eros, eget interdum purus.
                         </p>
-                    </div>
+                    </div><!--single-page-content end-->
+                    
+                    <!--single-page-tags start-->
                     <div class="single-page-tags">
                         <p class="fst-italic mb-4">Tags:</p>
                         <div>
-                        <a href="#" class="d-inline-block text-lowercase me-4">beauty</a>
-                        <a href="#" class="d-inline-block text-lowercase me-4">hair</a>
-                        <a href="#" class="d-inline-block text-lowercase">glossy</a>
+                            <a href="blog.html" class="d-inline-block text-lowercase me-4">beauty</a>
+                            <a href="blog.html" class="d-inline-block text-lowercase me-4">hair</a>
+                            <a href="blog.html" class="d-inline-block text-lowercase">glossy</a>
                         </div>
-                    </div>
+                    </div><!--single-page-tags end-->
                 </div>
-            </section>
+            </section><!--single-page-end-->
 
         </main><!--main-end-->
 
@@ -187,6 +191,7 @@ and open the template in the editor.
         <!-- font-awesome-icon -->
         <script src="https://kit.fontawesome.com/e49f4fcfe1.js" crossorigin="anonymous"></script>
         <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="js/jquery.validate.min.js" type="text/javascript"></script>
         <script src="js/main.js" type="text/javascript"></script>
     </body>
 </html>

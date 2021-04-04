@@ -1,8 +1,9 @@
+
 .team {
-    padding: 111px 0 67px;
+    padding: 8rem 0 6.7rem;
     h2 {
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 5rem;
         text-transform: uppercase;
         letter-spacing: 2px;
         &:after {
@@ -11,42 +12,45 @@
             width: 7.4rem;
             height: 1px;
             background-color: $after-section-bg;
-            margin: 25px auto 0;            
+            margin: 2.5rem auto 0;            
         }
         @media(min-width: 576px) {
             text-align: left; 
             letter-spacing: 5px;
-            line-height: 45px;
-            font-size: 30px;
+            line-height: 4.5rem;
+            font-size: 3rem;
             &:after {
-                margin: 25px 0 0;
+                margin: 2.5rem 0 0;
             }
         }       
-    }
+    } // h2 end
     .team-item {
         border: 1px solid $secondary;
         @media(min-width: 576px) {
-            padding: 20px 30px;
+            padding: 2rem 3rem;
         }
         @media(min-width: 768px) {
-            padding: 40px 60px;
+            padding: 4rem 6rem;
         }
         @media(min-width: 1200px) {
-            padding: 54px 95px;
+            padding: 5.4rem 9.5rem;
         }      
         h3 {
             a {
                 font-family: $lato;
                 font-weight: 400;
                 @media(min-width: 1200px) {
-                    font-size: 30px;
-                    line-height: 27px;  
+                    font-size: 3rem;
+                    line-height: 2.7rem;  
                 }
-            }
-        }
-        p {
-            font-size: 14px;
-            line-height: 23px;
-        }   
-    }
-}
+            } 
+        } 
+        p {            
+            font-size: 1.4rem;
+            line-height: 2.3rem;
+            @media(min-width: 768px) {
+                font-size: 1.6rem;
+            }   
+        } 
+    } // team-item end
+} // team end

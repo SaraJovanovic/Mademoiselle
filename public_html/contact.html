@@ -28,8 +28,9 @@ and open the template in the editor.
         <link href="css/theme.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+
         <!--header-start-->
-        <header class="py-1 py-md-3 py-lg-4 fixed-top" style="background-color: #fff">
+        <header class="fixed-top py-1 py-md-6" style="background-color: #fff">
             <nav class="navbar navbar-expand-md navbar-light">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">
@@ -40,8 +41,8 @@ and open the template in the editor.
                         <span></span>
                         <span></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="main-menu">
-                        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <div class="collapse navbar-collapse mt-4 mt-md-0" id="main-menu">
+                        <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="about.html">about</a>
                             </li>
@@ -62,54 +63,61 @@ and open the template in the editor.
 
         <!--main-start-->
         <main>
-            
+
             <!--contact-start-->
             <section class="contact">
-                <div class="container">
-                    <div class="row justify-content-sm-between">
-                        <div class="col-12 col-lg-6 mb-6 mb-lg-0 animation" data-animation='slideRight'>
+                <div class="container mb-6 mb-lg-0">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 animation" data-animation='slideRight'>
                             <article class="h-100 text-center text-lg-start">
-                                <h2 class="mb-5">Please contact us using the form bellow</h2>
-                                <form method="POST" action="" class="mb-6">
-                                    <div class="form-group mb-4">
+                                <h2 class="mb-5">Please contact us using <br> the form bellow</h2>
+                                <!--form start-->
+                                <form method="POST" action="" class="contact-form">
+                                    <div class="mb-4 form-group">
                                         <input type="text" name="name" value="" placeholder="Name and surname*" class='input-form'>
+                                        <p class="invalid-feedback"></p>
                                     </div>
-                                    <div class="form- mb-4">
+                                    <div class="mb-4 form-group">
                                         <input type="email" name="email" value="" placeholder="Email address*" class='input-form'>
+                                        <p class="invalid-feedback"></p>
                                     </div>
-                                    <div class="form-group mb-4">
-                                        <input type="text" name="subject" value="" placeholder="Email address**" class='input-form'>
+                                    <div class="mb-4 form-group">
+                                        <input type="text" name="subject" value="" placeholder="Subject*" class='input-form'>
+                                        <p class="invalid-feedback"></p>
+                                    </div>
+                                    <div class="mb-6 form-group">
+                                        <textarea name="message" placeholder="Enter your message*" class='input-form' rows="4"></textarea>
+                                        <p class="invalid-feedback"></p>
                                     </div>
                                     <div class="form-group">
-                                        <textarea name="message" value="" placeholder="Enter your message*" class='input-form' rows="4"></textarea>
+                                        <button type="submit" name="contact-form" value="send" class="contact-button">send message</button>
                                     </div>
-                                </form>
-                                <a href="#" class="d-inline-block">Send message</a>
+                                </form><!--form end-->
+
                             </article>
-                        </div>
-                        <div class="col-12 col-lg-5 animation" data-animation='slideLeft'>
-                            <aside class='h-100'>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11394.269089762944!2d20.6978175!3d44.44203795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssr!2srs!4v1617312980370!5m2!1ssr!2srs" class="w-100 h-100" style="border:$secondary;" allowfullscreen="" loading="lazy"></iframe>
-                            </aside>
                         </div>
                     </div>
                 </div>
+                <!-- fluid start-->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-lg-5 contact-maps animation" data-animation='slideLeft'>
+                            <aside>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11394.269089762944!2d20.6978175!3d44.44203795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssr!2srs!4v1617312980370!5m2!1ssr!2srs" class="w-100" style="border:$secondary;" allowfullscreen="" loading="lazy"></iframe>
+                            </aside>
+                        </div>
+                    </div>
+                </div><!--fluid end-->
             </section><!--contact-end-->
             
+            <!--info-start-->
             <section class='info bg-secondary text-center'>
                 <div class='container'>
                     <p class='mb-3 info-text animation' data-animation='slideDown' data-delay='0.2s'>146 Douglas Dale Suite 343</p>
                     <p class='mb-3 animation' data-animation='slideDown' data-delay='0.4s'><a href='telto:560-748-5959' class='info-text'>560-748-5959</a></p>
                     <p class='animation' data-animation='slideDown' data-delay='0.6s'><a href='mailto:cullen_mueller@yahoo.com' class='info-text'>cullen_mueller@yahoo.com</a></p>
                 </div>
-            </section>
-            
-            
-
-
-
-
-
+            </section><!--info-end-->
 
         </main><!--main-end-->
 
@@ -131,6 +139,7 @@ and open the template in the editor.
         <!-- font-awesome-icon -->
         <script src="https://kit.fontawesome.com/e49f4fcfe1.js" crossorigin="anonymous"></script>
         <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="js/jquery.validate.min.js" type="text/javascript"></script>
         <script src="js/main.js" type="text/javascript"></script>
     </body>
 </html>

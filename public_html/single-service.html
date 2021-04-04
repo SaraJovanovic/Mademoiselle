@@ -28,8 +28,9 @@ and open the template in the editor.
         <link href="css/theme.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+        
         <!--header-start-->
-        <header class="py-1 py-md-3 py-lg-4 fixed-top" style="background-color: #fff">
+        <header class="fixed-top py-1 py-md-6" style="background-color: #fff">
             <nav class="navbar navbar-expand-md navbar-light">
                 <div class="container">
                     <a class="navbar-brand" href="index.html">
@@ -40,8 +41,8 @@ and open the template in the editor.
                         <span></span>
                         <span></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="main-menu">
-                        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <div class="collapse navbar-collapse mt-4 mt-md-0" id="main-menu">
+                        <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="about.html">about</a>
                             </li>
@@ -62,20 +63,22 @@ and open the template in the editor.
 
         <!--main-start-->
         <main>
+            
+            <!--single-page start-->
             <section class="single-page">
                 <div class="container">
-                    <div class="row justify-content-sm-between align-items-sm-center single-page-wrapper">
-                        <div class="col-12 col-sm-6 animation" data-animation='slideRight'>
+                    <div class="row justify-content-sm-between">
+                        <div class="col-12 col-sm-5 col-lg-6 animation order-1 order-sm-0" data-animation='slideRight'>
                             <aside class="h-100">
                                 <img src="img/single-page/single-service-img-01.png" alt=""/>
                             </aside>
                         </div>
-                        <div class="col-12 col-sm-5 animation" data-animation='slideLeft'>
-                            <article class="h-100">
-                                <h1 class="mb-5">
+                        <div class="col-12 col-sm-6 col-lg-5 animation mb-4 mb-sm-0 single-page-wrapper" data-animation='slideLeft'>
+                            <article class="h-100 single-page-description">
+                                <h1 class="mb-5 text-center text-sm-start">
                                     male and female haircut
                                 </h1>
-                                <p class="mb-4 mb-sm-0">
+                                <p>
                                     Contrary to popular belief, Lorem Ipsum is 
                                     not simply random text. It has roots in a
                                     piece of classical Latin literature from 45 
@@ -99,24 +102,24 @@ and open the template in the editor.
 
                     </div><!--row end-->
                 </div>
-            </section>
+            </section> <!--single-page end-->
 
             <!--beauty-trends-start-->
-            <section class='beauty-trends'>
+            <section class='beauty-trends pt-0 pb-10 pb-md-11 pb-xl-13'>
                 <div class='container'>
-                    <h2 class="beauty-trends-title">Stay Up with the Latest Beauty Trends</h2>
+                    <h2 class="beauty-trends-title animation" data-animation="slideRight">Stay Up with the Latest Beauty Trends</h2>
                     <!--row start-->
                     <div class='row'>
                         <!--col start-->
                         <div class='col-12 col-sm-4'>
                             <div class='h-100'>
-                                <a href='about.html' class='d-block image-placeholder size-4by3'>
+                                <a href='single-blog.html' class='d-block image-placeholder size-4by3'>
                                     <img src="img/beauty-trends/beauty-img-01.png" alt=""/>
                                 </a>
                                 <div class='beauty-trends-content'>
                                     <h6 class='date'>04/17/2019</h6>
                                     <h3>                                   
-                                        <a href='about.html' class='subtitle d-block'>
+                                        <a href='single-blog.html' class='subtitle d-block'>
                                             Cosmetic Surgery Restores Normal Structures Of The Body
                                         </a>
                                     </h3>
@@ -126,13 +129,13 @@ and open the template in the editor.
                         <!--col start-->
                         <div class='col-12 col-sm-4'>
                             <div class='h-100'>
-                                <a href='about.html' class='d-block image-placeholder size-4by3'>
+                                <a href='single-blog.html' class='d-block image-placeholder size-4by3'>
                                     <img src="img/beauty-trends/beauty-img-02.png" alt=""/>
                                 </a>
                                 <div class='beauty-trends-content'>
                                     <h6 class='date'>12/22/2019</h6>
                                     <h3>                                   
-                                        <a href='about.html' class='subtitle d-block'>
+                                        <a href='single-blog.html' class='subtitle d-block'>
                                            Tips For Choosing The Perfect Gloss For Your Lips
                                         </a>
                                     </h3>
@@ -142,13 +145,13 @@ and open the template in the editor.
                         <!--col start-->
                         <div class='col-12 col-sm-4'>
                             <div class='h-100'>
-                                <a href='about.html' class='d-block image-placeholder size-4by3'>
+                                <a href='single-blog.html' class='d-block image-placeholder size-4by3'>
                                     <img src="img/beauty-trends/beauty-img-03.png" alt=""/>
                                 </a>
                                 <div class='beauty-trends-content'>
                                     <h6 class='date'>11/10/2019</h6>
                                     <h3>                                   
-                                        <a href='about.html' class='subtitle d-block'>
+                                        <a href='single-blog.html' class='subtitle d-block'>
                                            The 6 Step Non Surgical Facial Rejuvenation Program
                                         </a>
                                     </h3>
@@ -158,8 +161,6 @@ and open the template in the editor.
                     </div><!--row end-->
                 </div>
             </section> <!--beauty-trends-end-->
-
-
 
         </main><!--main-end-->
 
@@ -181,6 +182,7 @@ and open the template in the editor.
         <!-- font-awesome-icon -->
         <script src="https://kit.fontawesome.com/e49f4fcfe1.js" crossorigin="anonymous"></script>
         <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="js/jquery.validate.min.js" type="text/javascript"></script>
         <script src="js/main.js" type="text/javascript"></script>
     </body>
 </html>

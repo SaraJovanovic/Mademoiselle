@@ -1,10 +1,9 @@
 // pisemo varijable koje menjamo u bootstrapu
 
 html {
-    font-size: 10px;
+    font-size: 10px; // 1rem
 }
 
-$font-size-base: 1.6rem;
 $body-color: #1E1E1E;
 $grid-gutter-width: 1.2rem;
 
@@ -13,37 +12,38 @@ $secondary: #ECD9D9;
 
 $spacer: 1rem !default;
 $spacers: (
-  0: 0,
-  1: $spacer / 2,
-  2: $spacer,
-  3: $spacer * 1.5,
-  4: $spacer * 2,
-  5: $spacer * 2.5,
-  6: $spacer * 3,
-  7: $spacer * 3.5,
-  8: $spacer * 4,
-  9: $spacer * 4.5,
-  10: $spacer * 5,
-  11: $spacer * 8,
-  12: $spacer * 10.5
+0: 0,
+1: $spacer / 2,
+2: $spacer,
+3: $spacer * 1.5,
+4: $spacer * 2,
+5: $spacer * 2.5,
+6: $spacer * 3,
+7: $spacer * 3.5,
+8: $spacer * 4,
+9: $spacer * 4.5,
+10: $spacer * 5,
+11: $spacer * 8,
+12: $spacer * 10.5,
+13: $spacer * 13.5  
 );
 
 $grid-breakpoints: (
-  xs: 0,
-  xm: 450px,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
- //// xxl: 1400px
+xs: 0,
+xm: 450px,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px,
+//// xxl: 1400px
 );
 
 $container-max-widths: (
-  // sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px,
-  // xxl: 1320px
+// sm: 540px,
+md: 720px,
+lg: 960px,
+xl: 1140px,
+// xxl: 1320px
 );
 
 $navbar-light-color: #1E1E1E;             
@@ -57,9 +57,6 @@ $link-decoration: none;
 $link-shade-percentage: 0%;                   
 $link-hover-color: none;
 
-$input-btn-padding-y: 10px;
-$input-btn-padding-x: 5px;  
-            
 $input-focus-border-color: #1E1E1E;
 $input-focus-box-shadow: 0;
 $input-border-color: #1E1E1E;

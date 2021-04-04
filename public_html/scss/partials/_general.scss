@@ -9,7 +9,7 @@ img {
 body {
     font-family: $body-font;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,10 +32,10 @@ a {
 }
 
 .subtitle {
-    font-size: 16px;
+    font-size: 1.6rem;
     text-align: center;
-    line-height: 24px;
-    height: 48px;
+    line-height: 2.4rem;
+    height: 4.8rem;
     overflow: hidden;
     font-family: $lato;
 }

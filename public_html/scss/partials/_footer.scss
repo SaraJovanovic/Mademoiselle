@@ -1,19 +1,39 @@
+
+$fb-color: #3b5998;
+$twitter-color: #1da1f2;
+$insta-color: #c32aa3;
+
 footer {
-    
     .footer-icons {
-        a{
-            font-size: 20px;
+        a {
+            font-size: 2rem;
             transition: all 0.2s linear;
             &:hover {
-                transform: rotate(360deg);
+                transform: rotate(360deg);              
+            }
+
+        }
+        .fa-facebook-f {
+            &:hover {
+                color: $fb-color !important;
             }
         }
-    }
+        .fa-twitter {
+            &:hover {
+                color: $twitter-color !important;
+            }
+        }
+        .fa-instagram {
+            &:hover {
+                color: $insta-color !important;
+            }
+        }
+    } // footer-icons end
     p {
         font-weight: 400;
         font-size: 1.2rem;
         line-height: 4.1rem;
         letter-spacing: -0.17px;       
     }
-}
+} // footer end
 
