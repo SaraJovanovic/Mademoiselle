@@ -1,6 +1,9 @@
 
 .team {
     padding: 8rem 0 6.7rem;
+    @media(min-width: 992px) {
+        padding-top: 11.1rem;
+    }
     h2 {
         text-align: center;
         margin-bottom: 5rem;
